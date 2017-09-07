@@ -1,0 +1,24 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HelloWorld : MonoBehaviour {
+
+	public float waterbottle = .01f;
+
+
+	private int bottle = 1;
+	// need to say public or private, private by default
+
+	// string message = "Help Me!";
+
+	// // Use this for initialization
+	// void Start () {
+	// 	print("Hello World!");
+	// }
+	
+	// // Update is called once per frame
+	// void Update () {
+	// 	print(message);
+	// }
+}

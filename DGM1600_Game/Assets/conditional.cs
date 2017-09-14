@@ -10,15 +10,19 @@ public class conditional : MonoBehaviour {
 	}
 	void Main(){
 		if(stopLight == "Red"){
-		print("STOP! Light is red!");
+// this is to test inputs
+		print("STOP!");
 		}
 		else if(stopLight == "Yellow"){
+// you can have as many else if as you want
 			print("Slow Down");
 		}
 		else if(stopLight == "Green"){
 			print("Continue Through");
 		}
 		else{
+//only one else and one if
+// this can be used to bug test any other unplaned out comes
 			print("You're Broken");
 		}
 	}

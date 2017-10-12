@@ -18,8 +18,10 @@ public class forEachList : MonoBehaviour {
 		foreach(FirstOrder guy in badguys){
 			print(guy.name + " " + guy.power);
 		}
-
 	}
+
+
+
 	
 	// Update is called once per frame
 	void Update () {
